@@ -2,24 +2,24 @@
 
 WORK IN PROGRESS
 
-Neopixel (WS2812b) LED-Strip controlled with Raspberry Pi
+# Neopixel (WS2812b) LED-Strip controlled with Raspberry Pi
 
 The purpose of this (school-)project is to gain experience with the Raspberry Pi and how to use it to control various things.
 In this case a WS2812b LED-Strip will be controlled.
 
 This project has a 2-part goal:
 
-Part 1:
+# Part 1:
 
 -Basic function, getting the Pi to work with the strip
 
 -Interaction, controlling the strip through an input, specifically moving a single LED (planned: increasing/decreasing a scale) across the strip using two buttons
 
-Part 2:
+# Part 2:
 
 -Syncing the strip to music (not implemented yet)
 
-Requirements:
+# Requirements:
 
 -Raspberry Pi (Raspberry Pi 4 Model B used)
 
@@ -35,8 +35,8 @@ Requirements:
 
 -Jumpercable (Male-Male & Male-Female)
 
-Part 1:
-Basic function
+# Part 1:
+# Basic function
 
 Prepare the following circuit:
 
@@ -58,7 +58,7 @@ To test everything open the strandtest.py in the library and change the variable
 Execute the altered strandtest.py using the command: sudo python strandtest.py
 
 
-Interaction
+# Interaction
 
 Prepare the following circuit:
 
