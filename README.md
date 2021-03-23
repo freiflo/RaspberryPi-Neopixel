@@ -10,7 +10,9 @@ In this case a WS2812b LED-Strip will be controlled.
 This project has a 2-part goal:
 
 Part 1:
+
 -Basic function, getting the Pi to work with the strip
+
 -Interaction, controlling the strip through an input, specifically moving a single LED (planned: increasing/decreasing a scale) across the strip using two buttons
 
 Part 2:
