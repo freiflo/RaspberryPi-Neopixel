@@ -77,7 +77,7 @@ GPIO.setmode(GPIO.BOARD) #use physical pin numbering
 GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN) #GPIO 15 as input
 GPIO.setup(8, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)  #GPIO 14 as input
 
-# LED strip configuration:
+#LED Strip Configuration
 LED_COUNT      = 68      # Number of LED pixels.
 LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!).
 #LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
