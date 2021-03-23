@@ -17,12 +17,18 @@ Part 2:
 -Syncing the strip to music (not implemented yet)
 
 Requirements:
--Raspberry Pi (Raspberry Pi 4 Model B used);
--WS2812b LED-Strip;
+-Raspberry Pi (Raspberry Pi 4 Model B used)
+
+-WS2812b LED-Strip
+
 -Powersupply (Powerlink Model LPT2 350W ATX PC Powersupply used)
+
 -Logic Level shifter (74ABT125N Level Shifter used)
+
 -Buttons x 2
+
 -Breadboard
+
 -Jumpercable (Male-Male & Male-Female)
 
 Part 1:
@@ -33,5 +39,11 @@ Prepare the following circuit:
 ![image](https://user-images.githubusercontent.com/72065170/112108712-dd67bb80-8bb0-11eb-9eb3-253b68de7269.png)
 
 Make sure to use a suitable powersupply, depending on the length of the LED-strip you might need a lot of power.
+
+Depending on the levelshifter used the wiring might change, the datasheet for the 74ABT125N is provided in the directory.
+
+There are other ways of wiring this circuit here: https://www.thegeekpub.com/15990/wiring-ws2812b-addressable-leds-to-the-raspbery-pi/#:~:text=%20Options%20for%20Wiring%20the%20WS2812b%20to%20the,It%20is%20possible%20in%20a%20pinch...%20More
+
+
 
 
