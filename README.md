@@ -1,6 +1,4 @@
-# RaspberryPi-Neopixel
-
-WORK IN PROGRESS
+# RaspberryPi-Neopixel (WORK IN PROGRESS)
 
 # Neopixel (WS2812b) LED-Strip controlled with Raspberry Pi
 
