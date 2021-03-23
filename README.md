@@ -17,9 +17,9 @@ Part 2:
 -Syncing the strip to music (not implemented yet)
 
 Requirements:
--Raspberry Pi (This project uses the Raspberry Pi 4 Modell B)
+-Raspberry Pi (Raspberry Pi 4 Model B used)
 -WS2812b LED-Strip
--Powersupply
+-Powersupply (Powerlink Model LPT2 350W ATX PC Powersupply used)
 -Logic Level shifter (74ABT125N Level Shifter used)
 -Buttons x 2
 -Breadboard
@@ -27,5 +27,9 @@ Requirements:
 
 Part 1:
 Basic function
+
+Prepare the following circuit:
+![image](https://user-images.githubusercontent.com/72065170/112108712-dd67bb80-8bb0-11eb-9eb3-253b68de7269.png)
+Make sure to use a suitable powersupply, depending on the length of the LED-strip you might need a lot of power.
 
 
