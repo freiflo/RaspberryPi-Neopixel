@@ -23,7 +23,7 @@ This project has a 2-part goal:
 
 -WS2812b LED-Strip
 
--Powersupply (Powerlink Model LPT2 350W ATX PC Powersupply used)
+-Powersupply 5V (Powerlink Model LPT2 350W ATX PC Powersupply used)
 
 -Logic Level shifter (74ABT125N Level Shifter used)
 
