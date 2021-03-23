@@ -29,7 +29,9 @@ Part 1:
 Basic function
 
 Prepare the following circuit:
+
 ![image](https://user-images.githubusercontent.com/72065170/112108712-dd67bb80-8bb0-11eb-9eb3-253b68de7269.png)
+
 Make sure to use a suitable powersupply, depending on the length of the LED-strip you might need a lot of power.
 
 
