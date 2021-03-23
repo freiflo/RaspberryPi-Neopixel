@@ -17,6 +17,7 @@ Part 2:
 -Syncing the strip to music (not implemented yet)
 
 Requirements:
+
 -Raspberry Pi (Raspberry Pi 4 Model B used)
 
 -WS2812b LED-Strip
