@@ -16,6 +16,7 @@ Part 1:
 -Interaction, controlling the strip through an input, specifically moving a single LED (planned: increasing/decreasing a scale) across the strip using two buttons
 
 Part 2:
+
 -Syncing the strip to music (not implemented yet)
 
 Requirements:
@@ -46,6 +47,17 @@ Make sure to use a suitable powersupply, depending on the length of the LED-stri
 Depending on the levelshifter used the wiring might change, the datasheet for the 74ABT125N is provided in the directory.
 
 There are other ways of wiring this circuit here: https://www.thegeekpub.com/15990/wiring-ws2812b-addressable-leds-to-the-raspbery-pi/#:~:text=%20Options%20for%20Wiring%20the%20WS2812b%20to%20the,It%20is%20possible%20in%20a%20pinch...%20More
+
+Execute the following commands on your RaspberryPi to install the WS281X library:
+
+sudo apt-get install build-essential python-dev python-pip unzip wget scons swig
+
+wget https://github.com/jgarff/rpi_ws281x/archive/master.zip && unzip master.zip && cd rpi_ws281x-master && sudo scons && sudo pip install rpi_ws281x
+
+To test everything open the strandtest.py in the library and change the variable LED_COUNT to the number of LEDs on your strip.
+Execute the altered strandtest.py using the command: sudo python strandtest.py
+
+
 
 
 
