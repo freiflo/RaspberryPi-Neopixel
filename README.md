@@ -40,6 +40,8 @@ Prepare the following circuit:
 
 ![image](https://user-images.githubusercontent.com/72065170/112108712-dd67bb80-8bb0-11eb-9eb3-253b68de7269.png)
 
+Data In is defined in the Code under "LED Strip Configuration"
+
 Make sure to use a suitable powersupply, depending on the length of the LED-strip you might need a lot of power.
 
 Depending on the levelshifter used the wiring might change, the datasheet for the 74ABT125N is provided in the directory.
@@ -52,7 +54,7 @@ Execute the following commands on your RaspberryPi to install the WS281X library
 
     wget https://github.com/jgarff/rpi_ws281x/archive/master.zip && unzip master.zip && cd rpi_ws281x-master && sudo scons && sudo pip install rpi_ws281x
 
-To test everything open the strandtest.py in the library and change the variable LED_COUNT to the number of LEDs on your strip.
+To test everything open the strandtest.py in the library and change the variable LED_COUNT to the number of LEDs on your strip. Make sure to check the LED_PIN and adjust either the code or your wiring so it matches up.
 Execute the altered strandtest.py using the command: sudo python strandtest.py
 
 
