@@ -116,37 +116,37 @@ while True:
             strip.show()
             sleep(0.2)
 
-##Move single LED
-#     #Increment/Move left
-#     if GPIO.input(10) == GPIO.HIGH:
-#         COUNT = COUNT+1
-#         if COUNT == LED_COUNT:                      #LED_COUNT starts at 0! so no +1 needed
-#             COUNT = 0
-#             strip.setPixelColorRGB(COUNT, 255, 0, 0)
-#             strip.setPixelColorRGB(LED_COUNT-1, 0, 0, 0)
-#             strip.show()
-#             sleep(0.2)
-#         else:
-#             strip.setPixelColorRGB(COUNT, 255, 0, 0)
-#             strip.setPixelColorRGB(COUNT-1, 0, 0, 0)
-#             strip.show()
-#             sleep(0.2)
-#             
-#     #Decrement/Move Right 
-#     if GPIO.input(8) == GPIO.HIGH:
-#         COUNT = COUNT-1
-#         if COUNT == -1:
-#             COUNT = LED_COUNT-1                     #LED_COUNT starts at 0! so -1 is needed
-#             strip.setPixelColorRGB(COUNT, 255, 0, 0)
-#             strip.setPixelColorRGB(0, 0, 0, 0)
-#             strip.show()
-#             sleep(0.2)
-#         else:
-#             strip.setPixelColorRGB(COUNT, 255, 0, 0)
-#             strip.setPixelColorRGB(COUNT+1, 0, 0, 0)
-#             strip.show()
-#             sleep(0.2)
-# 
-# #     strip.setPixelColorRGB(0, 255, 0, 0)
-# #     strip.setPixelColorRGB(LED_COUNT-1, 255, 0, 0)
-# #     strip.show()
+    ##Move single LED
+    #     #Increment/Move left
+    #     if GPIO.input(10) == GPIO.HIGH:
+    #         COUNT = COUNT+1
+    #         if COUNT == LED_COUNT:                      #LED_COUNT starts at 0! so no +1 needed
+    #             COUNT = 0
+    #             strip.setPixelColorRGB(COUNT, 255, 0, 0)
+    #             strip.setPixelColorRGB(LED_COUNT-1, 0, 0, 0)
+    #             strip.show()
+    #             sleep(0.2)
+    #         else:
+    #             strip.setPixelColorRGB(COUNT, 255, 0, 0)
+    #             strip.setPixelColorRGB(COUNT-1, 0, 0, 0)
+    #             strip.show()
+    #             sleep(0.2)
+    #             
+    #     #Decrement/Move Right 
+    #     if GPIO.input(8) == GPIO.HIGH:
+    #         COUNT = COUNT-1
+    #         if COUNT == -1:
+    #             COUNT = LED_COUNT-1                     #LED_COUNT starts at 0! so -1 is needed
+    #             strip.setPixelColorRGB(COUNT, 255, 0, 0)
+    #             strip.setPixelColorRGB(0, 0, 0, 0)
+    #             strip.show()
+    #             sleep(0.2)
+    #         else:
+    #             strip.setPixelColorRGB(COUNT, 255, 0, 0)
+    #             strip.setPixelColorRGB(COUNT+1, 0, 0, 0)
+    #             strip.show()
+    #             sleep(0.2)
+    # 
+    # #     strip.setPixelColorRGB(0, 255, 0, 0)
+    # #     strip.setPixelColorRGB(LED_COUNT-1, 255, 0, 0)
+    # #     strip.show()
