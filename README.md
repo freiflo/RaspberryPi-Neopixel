@@ -40,6 +40,8 @@ Prepare the following circuit:
 
 ![image](https://user-images.githubusercontent.com/72065170/112108712-dd67bb80-8bb0-11eb-9eb3-253b68de7269.png)
 
+In this case Data In is GPIO 18 (Pin 12), as defined in the "LED Strip Configuration" part of the Code.
+
 Make sure to use a suitable powersupply, depending on the length of the LED-strip you might need a lot of power.
 
 Depending on the levelshifter used the wiring might change, the datasheet for the 74ABT125N is provided in the directory.
@@ -62,6 +64,7 @@ Prepare the following circuit:
 
 ![image](https://user-images.githubusercontent.com/72065170/112120388-751fd680-8bbe-11eb-8781-fa61fd438b65.png)
 
+In this case Data In is GPIO 18 (Pin 12), as defined in the "LED Strip Configuration" part of the Code.
 
 Code:
 
@@ -77,7 +80,7 @@ Code:
 
     #LED Strip Configuration
     LED_COUNT      = 68      # Number of LED pixels.
-    LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!).
+    LED_PIN        = 18      # GPIO pin connected to the pixels (18 uses PWM!). GPIO 18, not Pin 18!
     #LED_PIN        = 10      # GPIO pin connected to the pixels (10 uses SPI /dev/spidev0.0).
     LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
     LED_DMA        = 10      # DMA channel to use for generating signal (try 10)
