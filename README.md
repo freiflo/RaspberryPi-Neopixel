@@ -55,6 +55,7 @@ Execute the following commands on your RaspberryPi to install the WS281X library
     wget https://github.com/jgarff/rpi_ws281x/archive/master.zip && unzip master.zip && cd rpi_ws281x-master && sudo scons && sudo pip install rpi_ws281x
 
 To test everything open the strandtest.py in the library and change the variable LED_COUNT to the number of LEDs on your strip. Make sure to check the LED_PIN and adjust either the code or your wiring so it matches up.
+
 Execute the altered strandtest.py using the command: sudo python strandtest.py
 
 
